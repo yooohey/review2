@@ -15,8 +15,8 @@ public class User{
 	}
 
 	public void show(){
-		System.out.println("id→"this.id);
-		System.out.println("氏名→"this.firstName+":"+this.lastName);
+		System.out.println("id→"+this.id);
+		System.out.println("氏名→"+this.firstName+":"+this.lastName);
 	}
 
 	public static void main (String[] args){
@@ -32,7 +32,7 @@ public class User{
 		User user8 = new User(8, "原田", "清司");
 		User user9 = new User(9, "武末", "憲和");
 		User user10 = new User(10, "榎枝", "大悟");
-		User user11 = new User(11, "和田", "充史");
+		//User user11 = new User(11, "和田", "充史");
 
 		user1.show();
 		user2.show();
@@ -56,7 +56,7 @@ public class User{
 		Student student7 = new Student(7, "高木", "香");
 		Student student8 = new Student(8, "原田", "清司");
 		Student student9 = new Student(9, "武末", "憲和");
-		Student student10 = new Student(10, "榎枝", "大悟")
+		Student student10 = new Student(10, "榎枝", "大悟");
 		Student student11 = new Student(11, "野口", "龍真");
 		Student student12 = new Student(12, "花田", "恒一");
 		Student student13 = new Student(13, "鐘ヶ江", "耕治");
