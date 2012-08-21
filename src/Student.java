@@ -1,7 +1,7 @@
 public class Student extends User{
 	
 	public Student(int id1, String firstName1, String lastName1){
-		super(id1, lastName1, lastName1);
+		super(id1, firstName1, lastName1);
 	}
 
 	@Override
